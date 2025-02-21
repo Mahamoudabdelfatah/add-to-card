@@ -9,7 +9,7 @@ const Items = ({ products, increment, decrement, deletee, deleteCarts, darkLight
 
 
 
-            <div className={`${theme ? "bg-black" : "bg-white"} h-screen `}>
+            <div className={`${theme ? "bg-black" : "bg-white"}  `}>
                 <div className="flex flex-col justify-center items-center gap-[1em]  w-full ">
 
                     <h1 className='text-3xl font-extrabold text-green-900 pb-3 pt-[3em]'>Cart ITEMS</h1>
